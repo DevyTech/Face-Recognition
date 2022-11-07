@@ -4,7 +4,7 @@ import face_recognition
 
 # Memuat Gambar dari folder
 imgSample = face_recognition.load_image_file('ImageSample/Aldy Sample.JPG')
-imgTest = face_recognition.load_image_file('ImageSample/Foto_sample.jpg')
+imgTest = face_recognition.load_image_file('ImageSample/Tes.jpg')
 # Konversi warna BGR to RGB
 imgSample = cv2.cvtColor(imgSample, cv2.COLOR_BGR2RGB)
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
