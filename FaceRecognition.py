@@ -4,7 +4,7 @@ import face_recognition
 import os
 from datetime import datetime
 
-path = 'ImageSample'
+path = 'dataset'
 images = []
 className = []
 myList = os.listdir(path)
